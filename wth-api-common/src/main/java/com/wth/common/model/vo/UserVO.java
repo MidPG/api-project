@@ -1,4 +1,4 @@
-package com.wth.api.model.vo;
+package com.wth.common.model.vo;
 
 import lombok.Data;
 

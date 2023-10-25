@@ -9,6 +9,7 @@ import cn.hutool.crypto.digest.Digester;
 public class SignUtils {
 
     public static String genSign(String body, String secretKey){
+        // 加密逻辑
         Digester md5 = new Digester(DigestAlgorithm.SHA256);
 
         String content = body + "." + secretKey;

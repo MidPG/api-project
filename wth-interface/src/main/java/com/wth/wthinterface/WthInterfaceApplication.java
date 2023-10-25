@@ -13,6 +13,4 @@ public class WthInterfaceApplication {
         SpringApplication.run(WthInterfaceApplication.class, args);
     }
 
-
-
 }

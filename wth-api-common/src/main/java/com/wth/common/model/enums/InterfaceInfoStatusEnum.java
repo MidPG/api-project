@@ -1,4 +1,4 @@
-package com.wth.api.model.enums;
+package com.wth.common.model.enums;
 
 import java.util.Arrays;
 import java.util.List;

@@ -2,7 +2,7 @@ package com.wth.api.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.wth.api.model.entity.User;
+import com.wth.common.model.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
 

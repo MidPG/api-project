@@ -1,7 +1,7 @@
 package com.wth.api.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.wth.api.model.entity.InterfaceInfo;
+import com.wth.common.model.entity.InterfaceInfo;
 
 /**
 * @author 79499

@@ -11,18 +11,14 @@
         <module name="wth-interface" />
         <module name="interface-api-backend" />
         <module name="wth-api-gateway" />
+        <module name="wth-api-common" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="interface-api-backend" target="1.8" />
-      <module name="wth-api-gateway" target="1.8" />
-      <module name="wth-client-sdk" target="1.8" />
-      <module name="wth-interface" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="interface-api-backend" options="-parameters" />
+      <module name="wth-api-common" options="-parameters" />
       <module name="wth-api-gateway" options="-parameters" />
       <module name="wth-client-sdk" options="-parameters" />
       <module name="wth-interface" options="-parameters" />

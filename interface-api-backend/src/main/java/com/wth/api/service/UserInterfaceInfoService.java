@@ -1,11 +1,7 @@
 package com.wth.api.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.wth.api.mapper.UserInterfaceInfoMapper;
-import com.wth.api.model.entity.UserInterfaceInfo;
-import org.springframework.beans.factory.annotation.Autowired;
-
-import javax.annotation.Resource;
+import com.wth.common.model.entity.UserInterfaceInfo;
 
 /**
 * @author 79499

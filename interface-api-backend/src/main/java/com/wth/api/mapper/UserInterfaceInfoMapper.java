@@ -1,7 +1,7 @@
 package com.wth.api.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.wth.api.model.entity.UserInterfaceInfo;
+import com.wth.common.model.entity.UserInterfaceInfo;
 
 /**
 * @author 79499

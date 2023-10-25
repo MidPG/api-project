@@ -1,7 +1,7 @@
-package com.yupi.yuapicommon.service;
+package com.wth.common.service;
 
-import com.yupi.yuapicommon.model.entity.User;
 
+import com.wth.common.model.entity.User;
 
 /**
  * 内部用户服务

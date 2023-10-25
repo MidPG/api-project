@@ -1,4 +1,4 @@
-package com.wth.api.model.entity;
+package com.wth.common.model.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 

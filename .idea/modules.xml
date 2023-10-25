@@ -3,10 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api-project.iml" filepath="$PROJECT_DIR$/api-project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/interface-api-backend/interface-api-backend.iml" filepath="$PROJECT_DIR$/interface-api-backend/interface-api-backend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wth-api-gateway/wth-api-gateway.iml" filepath="$PROJECT_DIR$/wth-api-gateway/wth-api-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wth-client-sdk/wth-client-sdk.iml" filepath="$PROJECT_DIR$/wth-client-sdk/wth-client-sdk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wth-interface/wth-interface.iml" filepath="$PROJECT_DIR$/wth-interface/wth-interface.iml" />
     </modules>
   </component>
 </project>

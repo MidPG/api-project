@@ -16,9 +16,11 @@ import java.util.Map;
  */
 public class TApiClient {
 
-    private String accessKey;
+    private static final String GATEWAY_HOST = "http://localhost:8090";
 
-    private String secretKey;
+    private final String accessKey;
+
+    private final String secretKey;
 
     public TApiClient(String accessKey, String secretKey) {
         this.accessKey = accessKey;
@@ -35,7 +37,7 @@ public class TApiClient {
     public String getNameByPost(String name) {
         Map<String, Object> paramMap = new HashMap<>();
         paramMap.put("name", name);
-        String result= HttpUtil.post("http://localhost:8123/api/name/", paramMap);
+        String result= HttpUtil.post(GATEWAY_HOST + "/api/name/", paramMap);
         return result;
     }
 
@@ -59,14 +61,12 @@ public class TApiClient {
     public String getUserNameByPost(User user) {
         String json = JSONUtil.toJsonStr(user);
         Map<String, String> headMap = getHeadMap(json);
-        HttpResponse httpResponse = HttpRequest.post("http://localhost:8123/api/name/user")
+        HttpResponse httpResponse = HttpRequest.post(GATEWAY_HOST + "/api/name/user")
                 .addHeaders(headMap)
                 .body(json)// 将JSON字符串设置为请求体
                 .execute();// 执行请求
-        System.out.println(httpResponse.getStatus());
 
         String result = httpResponse.body();
-        System.out.println(result);
         return result;
     }
 

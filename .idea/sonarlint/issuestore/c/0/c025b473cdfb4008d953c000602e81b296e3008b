@@ -1,9 +1,4 @@
 
-b	java:S112""FDefine and throw a dedicated exception instead of using a generic one.(Èş‚¼8£•œŸ±1
-b	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(Èş‚¼8¤•œŸ±1
-Z
-java:S1854"=Remove this useless assignment to local variable "timestamp".(Ö«ùÌ8º•œŸ±1
-K
-java:S1481".Remove this unused "timestamp" local variable.(Ö«ùÌ8½•œŸ±1
-T
-java:S1135$"2Complete the task associated to this TODO comment.(äÇ£şÿÿÿÿ8À•œŸ±1
+X	java:S125"<This block of commented-out lines of code should be removed.(šÏìÒ8§æî˜²1
+^
+java:S1128"ARemove this unused import 'com.wth.wthclientsdk.utils.SignUtils'.(Ğê—Ï8¨æî˜²1

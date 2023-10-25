@@ -3,8 +3,8 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import com.wth.api.model.entity.InterfaceInfo;
 import com.wth.api.service.InterfaceInfoService;
+import com.wth.common.model.entity.InterfaceInfo;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.test.context.SpringBootTest;

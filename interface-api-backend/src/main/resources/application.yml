@@ -21,7 +21,7 @@ spring:
     database: 10
     password: 123321
 server:
-  port: 8095
+  port: 7529
   servlet:
     context-path: /api
 mybatis-plus:
@@ -37,3 +37,9 @@ wthapi:
   client:
     access-key: admin
     secret-key: abcdef
+dubbo:
+  application:
+    name: api-backend
+  registry:
+    id: nacos-registry-producer
+    address: nacos://localhost:8848

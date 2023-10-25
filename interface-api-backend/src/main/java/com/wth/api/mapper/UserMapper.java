@@ -1,8 +1,7 @@
 package com.wth.api.mapper;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.wth.api.model.entity.User;
+import com.wth.common.model.entity.User;
 
 /**
 * @author 79499

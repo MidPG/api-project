@@ -1,12 +1,12 @@
 package com.wth.api.service.impl;
-import java.util.Date;
+
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.wth.api.common.ErrorCode;
 import com.wth.api.exception.BusinessException;
-import com.wth.api.model.entity.InterfaceInfo;
-import com.wth.api.service.InterfaceInfoService;
 import com.wth.api.mapper.InterfaceInfoMapper;
+import com.wth.api.service.InterfaceInfoService;
+import com.wth.common.model.entity.InterfaceInfo;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
@@ -16,7 +16,7 @@ import org.springframework.stereotype.Service;
 * @createDate 2023-09-26 13:48:21
 */
 @Service
-public class InterfaceInfoServiceImpl extends ServiceImpl<InterfaceInfoMapper, InterfaceInfo> implements InterfaceInfoService{
+public class InterfaceInfoServiceImpl extends ServiceImpl<InterfaceInfoMapper, InterfaceInfo> implements InterfaceInfoService {
 
     @Override
     public void validInterfaceInfo(InterfaceInfo interfaceInfo, boolean add) {

@@ -1,9 +1,11 @@
 package com.wth.api.model.dto.interfaceinfo;
 
+import com.wth.api.common.PageRequest;
+
 /**
  *  接口查询对象
  */
-public class InterfaceInfoQueryRequest {
+public class InterfaceInfoQueryRequest extends PageRequest {
 
     /**
      * 主键id

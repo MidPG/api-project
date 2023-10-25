@@ -1,21 +1,18 @@
-package com.yupi.project.service.impl.inner;
+package com.wth.api.service.impl.inner;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.yupi.project.common.ErrorCode;
-import com.yupi.project.exception.BusinessException;
-import com.yupi.project.mapper.InterfaceInfoMapper;
-import com.yupi.yuapicommon.model.entity.InterfaceInfo;
-import com.yupi.yuapicommon.service.InnerInterfaceInfoService;
+import com.wth.api.common.ErrorCode;
+import com.wth.api.exception.BusinessException;
+import com.wth.api.mapper.InterfaceInfoMapper;
+import com.wth.common.model.entity.InterfaceInfo;
+import com.wth.common.service.InnerInterfaceInfoService;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.dubbo.config.annotation.DubboService;
 
 import javax.annotation.Resource;
 
 /**
- * 内部接口服务实现类
- *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://yupi.icu">编程导航知识星球</a>
+ *  接口common方法实现类
  */
 @DubboService
 public class InnerInterfaceInfoServiceImpl implements InnerInterfaceInfoService {
@@ -34,5 +31,4 @@ public class InnerInterfaceInfoServiceImpl implements InnerInterfaceInfoService 
         return interfaceInfoMapper.selectOne(queryWrapper);
     }
 
-    // [编程知识星球](https://yupi.icu) 连接万名编程爱好者，一起优秀！20000+ 小伙伴交流分享、100+ 各方向编程交流群、40+ 大厂嘉宾一对一答疑、4000+ 编程问答参考
 }

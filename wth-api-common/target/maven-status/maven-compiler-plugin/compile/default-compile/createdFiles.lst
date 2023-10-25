@@ -1,0 +1,8 @@
+com\wth\common\model\enums\InterfaceInfoStatusEnum.class
+com\wth\common\service\InnerInterfaceInfoService.class
+com\wth\common\model\entity\InterfaceInfo.class
+com\wth\common\model\entity\UserInterfaceInfo.class
+com\wth\common\model\vo\UserVO.class
+com\wth\common\service\InnerUserInterfaceInfoService.class
+com\wth\common\model\entity\User.class
+com\wth\common\service\InnerUserService.class

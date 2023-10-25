@@ -1,3 +1,9 @@
 
-U
-java:S1128"8Remove this unused import 'cn.hutool.core.util.StrUtil'.(ƒËôø8 ÏÐ¨°1
+Z
+java:S1854Q"8Remove this useless assignment to local variable "user".(…Ø¨Òþÿÿÿÿ8¬£ø ²1
+K
+java:S1481Q")Remove this unused "user" local variable.(…Ø¨Òþÿÿÿÿ8­£ø ²1
+Z
+java:S1854q"8Remove this useless assignment to local variable "user".(…Ø¨Òþÿÿÿÿ8®£ø ²1
+K
+java:S1481q")Remove this unused "user" local variable.(…Ø¨Òþÿÿÿÿ8¯£ø ²1
