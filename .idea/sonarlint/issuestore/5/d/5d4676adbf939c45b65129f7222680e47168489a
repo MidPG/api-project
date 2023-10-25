@@ -1,0 +1,4 @@
+
+@	java:S106""+Replace this use of System.out by a logger.(ЫЇше
+H
+java:S1874""2Remove this use of "getContext"; it is deprecated.(ЫЇше

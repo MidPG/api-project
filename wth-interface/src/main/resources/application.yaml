@@ -1,0 +1,8 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+wthapi:
+  client:
+    access-key: admin
+    secret-key: abcdef
